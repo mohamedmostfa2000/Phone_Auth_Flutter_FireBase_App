@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 import 'package:flutter/material.dart';
+import 'package:phone_auth_flutter_firebase/Widgets/Custom_Button.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -20,6 +21,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 25),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
                 "assets/image1.jpeg",
@@ -42,6 +44,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              const SizedBox(
+                height: 20,
+              ),
+              SizedBox(
+                width: 400,
+                height: 50,
+                child: CustomButton(text: "Get Started", onPressed: () {}),
+              )
             ],
           ),
         ),
