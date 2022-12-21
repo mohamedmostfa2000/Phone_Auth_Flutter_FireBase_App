@@ -1,5 +1,6 @@
 import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:phone_auth_flutter_firebase/Widgets/Custom_Button.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -138,6 +139,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           )
                         : null,
                   ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                SizedBox(
+                  width: 400,
+                  height: 50,
+                  child: CustomButton(text: "Login", onPressed: () {}),
                 )
               ],
             ),
