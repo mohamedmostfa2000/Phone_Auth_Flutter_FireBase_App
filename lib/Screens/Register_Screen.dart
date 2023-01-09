@@ -14,14 +14,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   Country selectedCountry = Country(
     phoneCode: "20",
-    countryCode: "Eg",
+    countryCode: "EG",
     e164Sc: 0,
     geographic: true,
     level: 1,
     name: "Egypt",
     example: "Egypt",
     displayName: "Egypt",
-    displayNameNoCountryCode: "Eg",
+    displayNameNoCountryCode: "EG",
     e164Key: "",
   );
 
